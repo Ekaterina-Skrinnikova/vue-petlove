@@ -1,6 +1,6 @@
 <script setup>
 import IInput from '../IInput/IInput.vue'
-import IButton from './IButton/IButton.vue'
+import IButton from '../IButton/IButton.vue'
 </script>
 
 <template>

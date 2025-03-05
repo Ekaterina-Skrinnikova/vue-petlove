@@ -1,5 +1,8 @@
 <script setup>
 import RegistrationView from './views/RegistrationView.vue'
+import ILayout from './components/ILayout/ILayout.vue'
 </script>
 
-<template><RegistrationView /></template>
+<template>
+  <ILayout><RegistrationView /></ILayout>
+</template>

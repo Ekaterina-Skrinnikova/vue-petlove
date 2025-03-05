@@ -7,9 +7,7 @@ import RegistrationForm from '../components/RegisrationForm/RegisrationForm.vue'
 <template>
   <div>
     <PetBlock src="" alt="photo cat" />
-    <div
-      class="flex flex-col gap-3 justify-center items-center max-w-[335px] px-5 py-[27px] m-auto"
-    >
+    <div class="flex flex-col gap-3 items-center max-w-[335px] px-5 py-[27px] m-auto">
       <ITitle>Registration</ITitle>
       <p>Thank you for your interest in our platform.</p>
       <RegistrationForm />
