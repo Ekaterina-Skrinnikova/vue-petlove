@@ -10,7 +10,7 @@ import RegistrationForm from '../components/RegisrationForm/RegisrationForm.vue'
     <div class="flex flex-col gap-3 items-center max-w-[335px] px-5 py-[27px] m-auto">
       <ITitle>Registration</ITitle>
       <p>Thank you for your interest in our platform.</p>
-      <RegistrationForm />
+      <RegistrationForm @submit="console.log" />
       <p>Already have an account? <a href="/login">Login</a></p>
     </div>
   </div>
