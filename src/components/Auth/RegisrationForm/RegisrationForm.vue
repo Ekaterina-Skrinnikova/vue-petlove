@@ -1,8 +1,8 @@
 <script setup>
-import IInput from '../IInput/IInput.vue'
-import IButton from '../IButton/IButton.vue'
+import IInput from '../../IInput/IInput.vue'
+import IButton from '../../IButton/IButton.vue'
 import { reactive } from 'vue'
-import FormContainer from '../FormContainer/FormContainer.vue'
+import FormContainer from '../FormContainer.vue'
 
 const emit = defineEmits(['submit'])
 const userData = reactive({
